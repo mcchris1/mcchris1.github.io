@@ -1,8 +1,46 @@
-cody {
-    background: black;
-    color: white;   
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(216, 67, 67);
+    color: rgb(52, 43, 43);  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
 
-@media (min-width: 800px} {
-    
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    font-size: .75em;
+}
+
+.derivative {
+    text-decoration: none;
+}
+
+#alf {
+    width: 100px;
+    height: auto;
+}
+
+#molly {
+    width: 45px;
+    height: auto;
+    margin: 5px;
+}
+
+#penelope {
+    width: 45px;
+    height: auto;
+    margin: 5px;
+}
+
+@media screen and (max-width: 600px){
+    .small-100 {
+        width: 100%;
+    }
 }
